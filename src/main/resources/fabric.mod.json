@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "findportal",
+  "version": "${version}",
+  "name": "FindPortal",
+  "description": "Client-side tool to find nearby nether portals (lit and configurable unlit frames) and remember previously-seen portals.",
+  "authors": ["dogo8me"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.dogo8me.findportal.FindPortalMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "cloth-config2": "*",
+    "modmenu": "*"
+  }
+}
